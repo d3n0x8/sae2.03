@@ -1,7 +1,7 @@
 auto lo
 iface lo inet loopback
 
-auto etho0
+auto eth0
 iface eth0 inet static
 address 172.18.160.2
 netmask 255.255.254.0
