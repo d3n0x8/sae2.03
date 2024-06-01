@@ -1,0 +1,5 @@
+cp /shared/interfacesr_c /etc/network/interfaces
+cp /shared/dhcpd.conf /etc/dhcp
+cp /shared/isc-dhcp-server /etc/default
+echo "nameserver 8.8.8.8" > /etc/resolv.conf
+

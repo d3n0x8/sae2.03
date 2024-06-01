@@ -1,0 +1,5 @@
+ip route add 172.18.164.0/28 via 172.18.164.18
+ip route add 172.18.162.0/23 via 172.18.164.26
+ip route add 172.18.160.0/23 via 172.18.164.22
+iptables -t nat -A POSTROUTING -o eth3 -j MASQUERADE
+cp /shared/interfacesr /etc/network/interfaces
