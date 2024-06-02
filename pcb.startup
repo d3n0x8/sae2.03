@@ -1,3 +1,3 @@
 cp /shared/interfacespcb /etc/network/interfaces
 echo "nameserver 8.8.8.8" > /etc/resolv.conf
-
+systemctl restart networking

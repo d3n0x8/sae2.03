@@ -1,5 +1,5 @@
 cp /shared/interfacesr /etc/network/interfaces
-/etc/init.d/networking restart
+systemctl restart networking
 ip route add 172.18.164.0/28 via 172.18.164.18 dev eth0
 ip route add 172.18.160.0/23 via 172.18.164.22 dev eth1
 ip route add 172.18.162.0/23 via 172.18.164.26 dev eth2
