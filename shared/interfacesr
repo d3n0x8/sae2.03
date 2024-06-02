@@ -14,10 +14,5 @@ netmask 255.255.255.252
 
 auto eth2
 iface eth2 inet static
-address 172.18.164.21
-netmask 255.255.255.252
-
-auto eth2
-iface eth2 inet static
 address 172.18.164.25
 netmask 255.255.255.252

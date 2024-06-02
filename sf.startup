@@ -7,3 +7,5 @@ echo "admin:admin" | chpasswd
 apt update && apt install -y vsftpd
 cp /shared/vsftpd.conf /etc/vsftpd.conf
 systemctl start vsftpd
+
+echo "fichier SF" > /home/admin/fichierSF.txt

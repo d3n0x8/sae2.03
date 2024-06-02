@@ -7,3 +7,5 @@ useradd -m admin
 echo "admin:admin" | chpasswd
 
 apt update && apt install -y ftp
+
+echo "fichier PCB" > /home/admin/fichierPCB.txt
