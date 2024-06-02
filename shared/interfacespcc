@@ -3,4 +3,3 @@ iface lo inet loopback
 
 auto eth0
 iface eth0 inet dhcp
-gateway 172.18.163.254

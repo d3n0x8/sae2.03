@@ -1,3 +1,9 @@
 cp /shared/interfacespcb /etc/network/interfaces
 echo "nameserver 8.8.8.8" > /etc/resolv.conf
 systemctl restart networking
+
+systemctl start ssh
+useradd -m admin
+echo "admin:admin" | chpasswd
+
+apt update && apt install -y ftp
